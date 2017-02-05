@@ -1,0 +1,10 @@
+---
+applications:
+- name: DasBootAP
+  memory: 512MB
+  instances: 1
+  buildpack: https://github.com/cloudfoundry/java-buildpack
+  path: ./target/das.boot-1.0-SNAPSHOT.jar
+  env:
+    SPRING_PROFILES_ACTIVE: test
+

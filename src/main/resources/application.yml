@@ -1,0 +1,16 @@
+spring:
+ profiles: dev
+server:
+ port: 8080
+
+---
+spring:
+ profiles: test
+server:
+ port: 8181
+
+---
+spring:
+ profiles: prod
+server:
+ port: 81
