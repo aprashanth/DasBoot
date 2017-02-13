@@ -1,0 +1,11 @@
+spring:
+  profiles: test
+logging:
+  level:
+    root: DEBUG
+    org.springframework.web: INFO
+    com.boot: INFO
+application:
+  name: DasBootAP
+server:
+  port: 9090

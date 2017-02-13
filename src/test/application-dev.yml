@@ -1,0 +1,8 @@
+spring:
+  profiles: dev
+logging:
+  level:
+    org.springframework.web: INFO
+    com.boot: DEBUG
+server:
+  port: 8080

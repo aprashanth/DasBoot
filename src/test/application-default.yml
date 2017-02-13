@@ -1,0 +1,8 @@
+spring:
+  profiles: test
+logging:
+  level:
+    org.springframework.web: INFO
+    com.boot: DEBUG
+server:
+  port: 9090
